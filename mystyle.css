@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'DINPro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DINPro Medium'), url('DINPro-Medium tr.woff') format('woff');
+    }
+
+.heading{
+    font-family: 'DINPro';
+    font-size: 18.5px;
+    font-weight: 500;
+    color: #444444;
+    margin: 25px 50px;
+}
+
+.college-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+}
+
+.college-container>div {
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    border: 0.2px solid #444444;
+    background-color: #ffffff;
+    width: 50%;
+    margin: 10px 50px 0 0;
+}
+
+.college_images{
+    width: 100%;
+    height: 234px;
+    opacity: 0.7;
+}
+
+.college_desc{
+    border-radius: 3.8px;
+    box-shadow: 0 0 19px 0 var(--greyish-brown-10);
+    border: solid 0.2px #444444;
+    background-color: #ffffff;
+}
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.price_sec{
+    margin-top: 14px;
+}
+.price{
+    font-family: 'DINPro';
+    font-size: 11px;
+    color: #444444;
+    text-decoration: line-through;
+    margin-right: 18px;
+}
+.star{
+    opacity: 0.5;
+}
+.m_l_7{
+    margin-left: 7px;
+}
+.description{
+    margin: 0 22px 0 15px;
+}
+.college_name{
+    font-family: 'DINPro';
+    font-size: 18.5px;
+    letter-spacing: normal;
+    color: #444444;
+}
+.address{
+    font-family: 'DINPro';
+    font-size: 13.5px;
+    color: #444444;
+}
+.light_color{
+    color: #adadad;
+}
+.green_blue{
+    color: #4bb89e;
+}
+.address_2{
+    font-family: DINPro;
+    font-size: 13.5px;
+}
+.discount{
+    font-size: 12.5px;
+    font-weight: bold;
+    margin: 10px -15px;
+    background-color: #ccf5e7;
+    padding: 15px;
+    width: max-content;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: 'DINPro';
+}
+.total_price{
+    font-family: 'DINPro';
+    font-size: 27.5px;
+    font-weight: bold;
+    color: #dd1c26;
+    margin-top: -15px;
+}
+.fee_duration{
+    font-family: Myriad Pro;
+    font-size: 11px;
+    font-weight: normal;
+    color: #444444;
+}
+.m_l_17{
+    margin-left: 17px;
+}
+.m_t_23{
+    margin-top: 23px;
+}
+.m_t_12{
+    margin-top: 12px;
+}
+.m_t_7{
+    margin-top: -7px;
+}
+.cancellation{
+    font-family: DINPro;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+.pos_abs{
+    bottom: 16px;
+    position: absolute;
+    left: 15px;
+}
+.pos_rel{
+    position: relative;
+}
+.desp_box{
+    border-radius: 16.5px;
+    background-color: #ffffff;
+    padding: 8px 16px;
+    font-family: 'DINPro';
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.branches{
+    position: absolute;
+    font-family: 'DINPro';
+    font-size: 13.5px;
+    bottom: 17px;
+    position: absolute;
+    right: 18px;
+    color: white;
+}
+.ratings{
+    font-family: 'DINPro';
+    position: absolute;
+    color: white;
+    top: 30px;
+    right: 15px;
+    width: 75px;
+    height: 53px;
+    border-radius: 3.8px;
+    background-color: #f5a626;
+    font-size: 13.5px;
+    text-align: center;
+    padding: 3px;
+}
+.font_18{
+    font-size: 18.5px;
+    font-weight: bold;
+}
+.offerTag:before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 16px solid #68a7ff;
+    border-right: 23px solid transparent;
+    border-bottom: 17px solid #68a7ff;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    right: 128px;
+}
+.promoted{
+    position: absolute;
+    font-family: DINPro;
+    top: -16px;
+    right: 0;
+    height: 33px;
+    color: white;
+    padding: 0px 23px;
+    background-color: #68a7ff;
+}
+
+.ratings_2{
+    top: 12px;
+}
+.instant_discount{
+    color: #4bb89e;
+    font-family: DINPro;
+    font-size: 13.5px;
+    margin-left: 18px;
+}
+.dealTag:after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid #4bb89e;
+    border-left: 12px solid transparent;
+    border-bottom: 8px solid #4bb89e;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    margin-left: 4px;
+}
+.dealTag{background: #4bb89e;
+    color: white;
+    padding: 1px 4px;
+    font-family: DINPro;
+    font-size: 13.5px;
+}
+.priceTag{
+    background: #dd1c26;
+    color: white;
+    padding: 1px 4px;
+    font-family: DINPro;
+    font-size: 13.5px;
+    margin-top: 2px;
+}
+.priceTag:before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-color: transparent #dd1c26;
+	border-style: solid;
+	border-width: 9px 14px 10px 0px;
+    margin-left: -18px;
+}
+@media(max-width:1370px){
+    .cancellation,.address,.address_2 {
+        font-size: 12.5px ;
+    }
+}
+@media(max-width:1290px){
+    .college-container>div{
+        margin: 10px 40px 0 0;
+    }
+    .college-container{
+        margin-left:35px ;
+    }
+    .total_price {
+        font-size: 25.5px;
+    }
+}
+@media(max-width:1200px){
+    .cancellation,.address,.address_2 {
+        font-size: 11.5px ;
+    }
+}
+@media(max-width:1169px){
+    .college-container{
+        display: block;
+    }
+    .cancellation,.address,.address_2 {
+        font-size: 13.5px ;
+    }
+    .college_desc{
+        margin-left: 23% !important;
+    }
+    .college-container>div{
+        width: 55%
+    }
+}
